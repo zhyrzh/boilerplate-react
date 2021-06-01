@@ -1,0 +1,13 @@
+// Styles for home page
+.home {
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2153&q=80);
+  background-position: center;
+  background-size: cover;
+
+  &__content {
+    margin: 10rem 19rem;
+  }
+}
