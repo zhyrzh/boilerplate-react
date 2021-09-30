@@ -1,3 +1,4 @@
+/** @type {import('webpack').Configuration} */
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
@@ -35,6 +36,9 @@ module.exports = {
             options: {
               sourceMap: true,
             },
+          },
+          {
+            loader: "postcss-loader",
           },
         ],
       },
